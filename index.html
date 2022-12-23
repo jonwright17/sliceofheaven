@@ -4,19 +4,26 @@
   	<meta charset="utf-8">
   	<meta name="description" content="Your description goes here">
   	<meta name="keywords" content="one, two, three">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		
-		<title>Slice of Heaven</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Slice of Heaven</title>
 
-		<!-- external CSS link -->
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/style.css">
+	<!-- external CSS link -->
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon_io/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon_io/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon_io/favicon-16x16.png">
+	<link rel="manifest" href="img/favicon_io/site.webmanifest">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Caramel&family=Unbounded:wght@300&display=swap" rel="stylesheet">
 	</head>
 	<body>
-		<header id="Home">
-			<img src="#" alt="logo">
+		<div id="hero">
+		<header id="Home" class="container">
+			
 			<nav>
-				<ul>
+				<ul id="nav">
+					<li><img src="img/favicon_io/favicon.ico" alt="logo"></li>
 					<li><a href="#Home">Home</a></li>
 					<li><a href="#">Menu</a></li>
 					<li><a href="#">Hours/Location</a></li>
@@ -24,12 +31,15 @@
 				</ul>
 			</nav>
 		</header>
-		<main>
-			<h1>Slice of Heaven</h1>
-			<h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi sed blanditiis, dicta autem id exercitationem quis illum eius ab quo impedit vitae? Dolores nesciunt, autem eius quasi voluptas fugiat. Quisquam!</h2>
-			<img src="#" alt="pizza">
+		<main class="container main" id="main">
+			<aside>
+				<h1>Slice of Heaven</h1>
+				<h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi sed blanditiis, dicta autem id exercitationem quis illum eius ab quo impedit vitae? Dolores nesciunt, autem eius quasi voluptas fugiat. Quisquam!</h2>
+			</aside>
+			<!-- <img src="img/louis-hansel-G5cpmu-0OV8-unsplash.jpg" alt="pizza"> -->
 		</main>
-		<section id="Menu">
+		</div>
+		<section id="menu" class="container">
 			<img src="#" alt="kitchen">
 			<section>
 				<h2>Menu</h2>
@@ -41,7 +51,7 @@
 				</ul>
 			</section>
 		</section>
-		<section id="Hours">
+		<section id="Hours" class="container">
 			<img src="#" alt="bg image">
 			<section>
 				<h3>Hours</h3>
@@ -56,7 +66,7 @@
 				</ul>
 			</section>
 		</section>
-		<footer id="Contact">
+		<footer id="Contact" class="container">
 			<h4>Phone : xxx-xxx-xxxx</h4>
 			<button><a href="#Home">To Top</a></button>
 		</footer>
