@@ -1,6 +1,7 @@
 /* Box Model Hack */
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 /* Clear fix hack */
@@ -68,28 +69,45 @@ nav *{
     padding-top: 100px;
     padding-bottom: 100px;
     color: white;
+    height: 500px;
 }
 h1{
     font-weight: bolder;
     padding-bottom: 2rem;
     font-family: Caramel;
-    font-size: 110px;
+    font-size: 6rem;
 }
 aside{
     width: 450px;
     padding-left: 5%;
-    font-size: x-large;
+    font-size: 1.3rem;
     
 }
 
 #menu{
-    height: 500px;
     justify-content: space-around;
 }
 
 img{
     max-width: 100%;
 }
+
+#menu-section{
+    height: 400px;
+    background-color: rgba(236, 126, 66, 0.245);
+    background-image: url("../img/patrick-fore-m9qWesqRN0M-unsplash.jpg");
+    background-size: cover;
+    background-blend-mode: lighten;
+}
+
+#menu{
+    color: white;
+    font-size: larger;
+    font-family: unbounded;
+    padding-top: 1rem;
+}
+
+
   
   
   /******************************************
