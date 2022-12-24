@@ -2,6 +2,7 @@
 * {
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family: unbounded, Arial, Helvetica, sans-serif;
 }
 
 /* Clear fix hack */
@@ -66,10 +67,10 @@ nav *{
 }
 
 #main{
-    padding-top: 100px;
+    padding-top: 75px;
     padding-bottom: 100px;
     color: white;
-    height: 500px;
+    height: 530px;
 }
 h1{
     font-weight: bolder;
@@ -78,14 +79,11 @@ h1{
     font-size: 6rem;
 }
 aside{
-    width: 450px;
+    width: 500px;
     padding-left: 5%;
     font-size: 1.3rem;
+    line-height: 2.4rem;
     
-}
-
-#menu{
-    justify-content: space-around;
 }
 
 img{
@@ -105,8 +103,47 @@ img{
     font-size: larger;
     font-family: unbounded;
     padding-top: 1rem;
+    padding-right: 80px;
+    justify-content: flex-end;
 }
 
+#hours{
+    height: 440px;
+    background-color: rgba(104, 45, 36, 0.351);
+    background-image: url("../img/tamas-pap-XLmhRnV8yuc-unsplash.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+#hours > section{
+    font-family: unbounded;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    padding-top: 50px;
+    line-height: 2.4rem;
+}
+
+h3{
+    padding-left: 140px;
+    padding-bottom: 25px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+footer{
+    font-family: unbounded;
+    background: rgb(253,29,29);
+    background: linear-gradient(90deg, rgba(253,29,29,1) 10%, rgba(253,53,35,1) 32%, rgba(253,76,41,1) 45%, rgba(253,102,48,1) 72%, rgba(252,176,69,1) 100%);
+    border-top: 8px solid gray;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+
+}
 
   
   
